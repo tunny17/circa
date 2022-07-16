@@ -1,29 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Big+Shoulders+Display:wght@700&family=Lato:ital,wght@0,300;0,400;1,700&family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Big+Shoulders+Display:wght@700&family=Lato:ital,wght@0,300;0,400;1,700&family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@400;700&display=swap');
 
-/* 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: "poppins", sans-serif;
-} */
-
-
-
 .overlay {
-    width: 20%;
-    margin-left: 550px;
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    background: rgb(0, 0, 0, 0);
+    z-index: 1;
+    left: 50%;
+    top: 41%;
 }
 
-.svg {
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.overlay img {
+    width: 100%;
 }
 
 html {
@@ -44,7 +40,7 @@ html, body {
     font-family: "Lato", sans-serif;
     font-size: 16px;
     min-height: 100%;
-    margin-top: 12px;
+    margin-top: 13px;
     -webkit-touch-callout: none;
     -webkit-font-smoothing: antialiased;
 }
@@ -132,13 +128,8 @@ h1 {
     width: 80%;
     float: left;
     margin-right: 50px;
-}
+} 
 
 
 /* media query */
 
-@media (min-width: 1280px) {
-    .description {
-        width: 100%;
-    }
-}
